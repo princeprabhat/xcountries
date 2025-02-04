@@ -31,7 +31,7 @@ const CountryFlag = () => {
 
                     <img
                         src={e.flag}
-                        alt={e.abbr}
+                        alt={e.name}
                         height={"100px"}
                         width={"100px"}
 
