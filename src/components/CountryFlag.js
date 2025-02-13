@@ -27,13 +27,13 @@ const CountryFlag = () => {
     return (
         <div className="flag-container">
             {data && data.map((e, idx) => {
-                return <div className="flag-box" key={`${e.abbr}${idx}`}>
+                return <div className="countryCard" key={`${e.abbr}${idx}`}>
 
                     <img
                         src={e.flag}
                         alt={e.name}
                         height={"100px"}
-                        width={"100px"}
+                        width={"150px"}
 
                     />
                     <h4>{e.name}</h4>

@@ -2,10 +2,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
-  padding: 20px;
+  padding: 10px 5px;
   margin: 5px 30px;
 }
-.flag-box {
+.countryCard {
   border: 1px solid gainsboro;
   /* background-color: red; */
   padding: 10px;
