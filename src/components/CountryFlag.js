@@ -56,7 +56,10 @@ const CountryFlag = () => {
                             width={"150px"}
 
                         />
-                        <h4>{e.common}</h4>
+                        <div>
+
+                            <h2><span>{e.common}</span></h2>
+                        </div>
 
                     </div>
                 })}
